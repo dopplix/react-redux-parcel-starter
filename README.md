@@ -1,3 +1,11 @@
+# Info
+
+- React
+- Babel
+- Parcel
+- ESLint
+- Prettier
+
 # Install
 
 ```

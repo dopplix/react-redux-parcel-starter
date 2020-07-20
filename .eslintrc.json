@@ -1,0 +1,24 @@
+{
+    "env": {
+      "browser": true,
+      "es2020": true
+    },
+    "extends": ["eslint:recommended", "prettier", "plugin:react/recommended", "prettier/react"],
+    "parserOptions": {
+      "ecmaVersion": 11,
+      "sourceType": "module",
+      "ecmaFeatures": {
+        "jsx": true
+      }
+    },
+    "parser": "babel-eslint",
+    "plugins": ["react", "import"],
+    "rules": {
+      "no-console": "warn"
+    },
+    "settings": {
+      "react": {
+        "version": "detect"
+      }
+    }
+  }

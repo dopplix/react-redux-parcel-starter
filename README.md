@@ -5,6 +5,7 @@
 - Parcel
 - ESLint
 - Prettier
+- Redux
 
 # Install
 
